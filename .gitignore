@@ -1,0 +1,16 @@
+# Generated packages and indexes
+dist/
+*.xpi
+catalogue-of-life-index.json
+scientific-name-italicizer-*.jsonl
+
+# Local/editor state
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and caches
+*.log
+node_modules/
+__pycache__/

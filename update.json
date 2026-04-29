@@ -1,0 +1,18 @@
+{
+  "addons": {
+    "scientific-name-italicizer@example.com": {
+      "updates": [
+        {
+          "version": "0.1.8",
+          "update_link": "https://github.com/Crowmane420/zotero-scientific-name-italicizer/releases/download/v0.1.8/scientific-name-italicizer-0.1.8.xpi",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "7.999",
+              "strict_max_version": "9.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

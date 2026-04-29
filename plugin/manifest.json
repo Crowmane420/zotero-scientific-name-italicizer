@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Scientific Name Italicizer",
+  "version": "0.1.8",
+  "description": "Italicizes species-level organism names in Zotero item titles using a local Catalogue of Life index.",
+  "author": "Codex",
+  "homepage_url": "https://github.com/Crowmane420/zotero-scientific-name-italicizer",
+  "applications": {
+    "zotero": {
+      "id": "scientific-name-italicizer@example.com",
+      "update_url": "https://raw.githubusercontent.com/Crowmane420/zotero-scientific-name-italicizer/main/update.json",
+      "strict_min_version": "7.999",
+      "strict_max_version": "9.*"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+<vbox id="scientific-name-italicizer-preferences">
+  <groupbox>
+    <label><html:h2>Catalogue of Life Index</html:h2></label>
+    <description>
+      Build a local Catalogue of Life index with the included index builder, then paste the full JSON file path below.
+    </description>
+    <hbox align="center">
+      <label control="scientific-name-italicizer-index-path" value="Index JSON:" />
+      <html:input
+        id="scientific-name-italicizer-index-path"
+        type="text"
+        preference="extensions.scientificNameItalicizer.indexPath"
+        style="flex: 1; margin-left: 8px;"
+      />
+    </hbox>
+  </groupbox>
+
+  <groupbox>
+    <label><html:h2>Reports</html:h2></label>
+    <description>
+      Leave this blank to save JSONL change reports next to the configured index file.
+    </description>
+    <hbox align="center">
+      <label control="scientific-name-italicizer-report-dir" value="Report folder:" />
+      <html:input
+        id="scientific-name-italicizer-report-dir"
+        type="text"
+        preference="extensions.scientificNameItalicizer.reportDir"
+        style="flex: 1; margin-left: 8px;"
+      />
+    </hbox>
+  </groupbox>
+
+  <groupbox>
+    <label><html:h2>Behavior</html:h2></label>
+    <description>
+      The extension edits Zotero item titles only, matches species-level and below names from the local index, and skips names already wrapped in italics.
+    </description>
+  </groupbox>
+</vbox>
